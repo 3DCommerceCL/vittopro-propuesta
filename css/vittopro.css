@@ -550,9 +550,10 @@ main{overflow-x:clip}
 .boton-claro{border-color:var(--linea);color:var(--marino);background:#fff}
 .boton-claro:hover{border-color:var(--marino);transform:translateY(-2px)}
 
-.cabecera-nota{background:linear-gradient(135deg,var(--marino-3) 0%,var(--marino) 55%,var(--marino-2) 100%)}
-.cabecera-nota::before{display:none}
-.cabecera-nota .cabecera-texto{max-width:780px}
+.cabecera-nota{background:var(--marino-3)}
+.cabecera-nota>img{object-position:right center}
+.cabecera-nota::before{background:linear-gradient(90deg,rgba(12,22,51,.96) 0%,rgba(12,22,51,.9) 40%,rgba(12,22,51,.45) 64%,rgba(12,22,51,.12) 100%)}
+.cabecera-nota .cabecera-texto{max-width:600px}
 .cabecera-nota h1{font-size:clamp(1.9rem,3.8vw,2.9rem)}
 
 /* Internas: responsivo */
